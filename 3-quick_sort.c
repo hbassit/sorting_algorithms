@@ -1,12 +1,12 @@
 #include "sort.h"
 
 /**
- * partition - array partition
+ * partition - partition array
  * @array: array to sort
  * @first: first position
  * @last: last position
  * @size: array size
- * Return: int pivot index
+ * Return: pivot index
  */
 int partition(int *array, int first, int last, size_t size)
 {
@@ -38,7 +38,7 @@ int partition(int *array, int first, int last, size_t size)
 }
 
 /**
- * qs - sorts an array of integers recursively
+ * qs - sorts an array of integers recursively using quick sort
  * @array: array to sort
  * @first: first position
  * @last: last position
@@ -57,8 +57,8 @@ void qs(int *array, int first, int last, size_t size)
 }
 
 /**
- * quick_sort - sorts an array of integers using the Quick
- * sort algorithm in ascending order
+ * quick_sort - sorts an array of integers in ascending order
+ * using the quick sort algorithm
  * @array: array to sort
  * @size: array size
  */
